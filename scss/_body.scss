@@ -141,33 +141,32 @@
         pointer-events: none;
     }
 
+}
 
-    .contact {
+.contact {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px 0px;
+
+    & h1 {
+        max-width: 1036px;
+        font-weight: 500;
+        font-size: 32px;
+        font-family: Noto Sans TC;
+        line-height: 150%;
+    }
+
+    .LinkList {
         display: flex;
-        justify-content: space-around;
-        padding: 80px 0px;
+        gap: 4px;
 
-        & h1 {
-            max-width: 1036px;
-            font-weight: 500;
-            font-size: 32px;
-            font-family: Noto Sans TC;
-            line-height: 150%;
-        }
-
-        .LinkList {
-            display: flex;
-            gap: 4px;
-
-            & li:hover {
-                background: #355a643a;
-                border-radius: 100px;
-            }
+        & li:hover {
+            background: #355a643a;
+            border-radius: 100px;
         }
     }
-
-    .footer {
-        text-align: center;
-        padding: 24px 0px;
-    }
+}
+.footer {
+    text-align: center;
+    padding: 24px 0px;
 }
