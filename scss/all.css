@@ -270,6 +270,7 @@ a {
   .banner_content {
     padding: 4rem 1.5rem;
   }
+  .content ul,
   .banner_content ul {
     font-size: 16px;
   }
@@ -388,6 +389,18 @@ a {
 .content .invisible {
   visibility: hidden;
   pointer-events: none;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 18px;
+}
+
+.GraphDesctiption,
+.GraphPhoto {
+  width: 50%;
 }
 
 .contact {

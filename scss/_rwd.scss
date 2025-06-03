@@ -2,9 +2,7 @@
    .header_list {
       flex-direction: column;
       gap: 0;
-
    }
-
 
    .header_list li {
       padding: 0;
@@ -13,8 +11,6 @@
          font-size: 24px;
       }
    }
-
-
 
    .banner {
       flex-direction: column;
@@ -28,7 +24,6 @@
 
    .banner_content {
       padding: 4rem 1.5rem;
-
 
       ul {
          gap: 7px;
@@ -48,11 +43,13 @@
    .content,
    .banner_content {
       padding: 4rem 1.5rem;
+
+      & ul {
+         font-size: 16px;
+      }
    }
 
-   .banner_content ul {
-      font-size: 16px;
-   }
+
 
    .header_list li a {
       font-size: 18px;

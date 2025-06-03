@@ -143,6 +143,19 @@
 
 }
 
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 18px;
+}
+
+.GraphDesctiption,
+.GraphPhoto{
+    width: 50%;
+}
+
 .contact {
     display: flex;
     justify-content: space-around;
